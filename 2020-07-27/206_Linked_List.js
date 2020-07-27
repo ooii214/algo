@@ -11,7 +11,7 @@ let reverseList = function (head) {
     next = box;
     //box 에 있는 값을 next 에 넣어준다
     head = head.next;
-    //그리고 head.next 에 있는값을 다시 ㅗ
+    //그리고 head.next 에 있는값을 다시 head 로 넣어준다!
   }
   return box;
 };
